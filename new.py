@@ -350,7 +350,7 @@ class PiggyGameBot:
                 
                 # 游戏间延迟
                 if i < games_count:  # 最后一次不需要延迟
-                    delay = self.config.get('game_settings', {}).get('game_delay', 2)
+                    delay = self.config.get('game_settings', {}).get('game_delay', 20)
                     self.logger.info(f"账户 {account['name']} 等待{delay}秒后进行下一次游戏...")
                     time.sleep(delay)
             
@@ -375,7 +375,7 @@ class PiggyGameBot:
                 success_count += 1
             
             # 账户间延迟
-            time.sleep(random.uniform(1, 2))
+            time.sleep(random.uniform(10, 20))
         
         self.logger.info(f"游戏完成，成功: {success_count}/{len(self.accounts)}")
     
@@ -386,7 +386,7 @@ class PiggyGameBot:
         self.play_all_accounts()
         
         # 设置定时任务 - 使用配置文件中的间隔时间
-        interval = self.config.get('game_settings', {}).get('session_interval', 3)
+        interval = self.config.get('game_settings', {}).get('session_interval', 30)
         schedule.every(interval).seconds.do(self.play_all_accounts)
         
         self.logger.info(f"定时游戏已设置，每{interval}秒执行一次")
@@ -395,7 +395,7 @@ class PiggyGameBot:
         try:
             while True:
                 schedule.run_pending()
-                time.sleep(3)  # 每分钟检查一次
+                time.sleep(15)  # 每分钟检查一次
         except KeyboardInterrupt:
             self.logger.info("程序已停止")
     
