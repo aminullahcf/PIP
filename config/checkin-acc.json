@@ -2,6 +2,13 @@
   "accounts": [
     {
       "name": "Account 1",
+      "session_token": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoibnFmZ0pUMjNKdlBobHJwOHRuU0h5RVJHZE90Vkl6XzExeUtRY1hjZGNtRHN6c3Z4V09oUnV0WUtoWTBBUm1zaGx0UzFrTkIzTUxBSlZQZnZFa3BFSVEifQ..B2zlwwCgYEB7f5H4fx8dqg.Co7VjkuNPVQhuHWxJXKOrI-UjRiBcnL1ivIaz0YLyq0c9yZxu0n4WneunGeC53n5_KxFRwRgUHmv8Bd-7SCeXP7lomEJMM5OsFW1qGHQX-xsFp_tyh3FL9oKUHCoC2JUmkcOMvAIwRPjXxQA1xxAlpjL2Atixncaxi-NYkIVTYNlmBkeVTVKZbYKAoTtwovdZKGSmq22mcM9F-0bs4QPC50FbqSsJf-iPlEo32ewgen2430jA4lojabJ6E3TOPIq-uCgzTEgHrVB5K9V-FNNAQAx4qkosKd2dUqim92A8iulHMecsI5FuPp2H6V-eBnm_Pk8Hwljf_e3CKumypfrQ6MVs_XeJYVtOXphhfniYs6-OSWSw4_TGHmgtcmaj4n3v4cWlFFTHfKvnTTaewb4zngpRcJQ8qdZNjBbl3_MqPpMyCq534SPZ0tfSs8BhlanjyLoxj9yd8ZtgCRhQpUo6cNbhXupeInd1sQJ3tsYT93x1j4zviEAGp7NTv4ivD_ULtjT8SeD5UIZ3tFXLTO_sW64kNQJylhuP4HEkcvTHxE7B_9qebYGheUtvwd17a_r6fBtIHOttHgxx6bvVefZdQ.DKUk8pbV4NLYIX1IUiRaJRgxbsGMXpB6jvmu0org5QU",
+      "cookies": "_ga=GA1.1.138254767.1767125867",
+      "enabled": true,
+      "description": "Account 1"
+     },
+	 {
+      "name": "Account 3",
       "session_token": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoibnFmZ0pUMjNKdlBobHJwOHRuU0h5RVJHZE90Vkl6XzExeUtRY1hjZGNtRHN6c3Z4V09oUnV0WUtoWTBBUm1zaGx0UzFrTkIzTUxBSlZQZnZFa3BFSVEifQ..WjQHdB9vd8_2_wq73HJMUQ.tsTBrTT55NQo-5jc7gr3P5jOXM8uKjQ5-oRBZtPMRiwZAMLPKIsIdu75RPfh0Wawxx-sResvq2qGvlApVG6Cg-o7dC9ptBhGMBfTB5yw4_ETNKp8hzoEISmnlU7krDKcOKCsJ0l_Ld2vzQcr5_2U1sLIGug_fWft9vL8bRBMj4ZqkZl8oBHTLks_Uc-nplCNb9CROOPqccPXyvSipmFHEJDnMUTcmNlIigIj6HS7FqdqtSReTHpQyGAy2uO07kkkTJwJmVcYn9ivuPy12kf-XN1aZt-jCLfXj9vCE4fQP436hv2iLaZy0m0qFirflZzdB6Kx880dAdb84wXSW9DGGcMPu70F7WZUIW-RnaZ6gq7Ljd4m3EI9QjlzUpFw5uZPQt5YrQ0A0wiTSCYJ577--dDy1dDxyyMynrr6Kq664o0_hp6UfzX1vSyY8e2xY-lzU3ks4AbsTtCen8WNG_4UzssfPmQ5oeYNhY2RIKc-eQyQ57oJCOOwC2Fw5qbMNjAhrfiUcVEUKg8ZqcLnrtmEfaCT-iTz4WcS_07SIdock9AdJKHfyH27FcUjasBCNUHFpiSOfnPQeE6FtAnI1De9Kw.eSkWPI9c3KmGbRWHwQCBySFcZy6JfigumWE781tMxTw",
       "cookies": "_ga=GA1.1.138254767.1767125867",
       "enabled": true,
