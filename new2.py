@@ -375,7 +375,7 @@ class PiggyGameBot:
                 success_count += 1
             
             # 账户间延迟
-            time.sleep(random.uniform(1, 5))
+            time.sleep(random.uniform(1, 3))
         
         self.logger.info(f"游戏完成，成功: {success_count}/{len(self.accounts)}")
     
@@ -395,7 +395,7 @@ class PiggyGameBot:
         try:
             while True:
                 schedule.run_pending()
-                time.sleep(6)  # 每分钟检查一次
+                time.sleep(2)  # 每分钟检查一次
         except KeyboardInterrupt:
             self.logger.info("程序已停止")
     
